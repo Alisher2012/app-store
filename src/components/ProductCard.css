@@ -1,0 +1,22 @@
+.product-card {
+  margin-bottom: 40px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.product-description {
+  font-size: 13px;
+  color: #86868b;
+  margin-top: 4px;
+  text-transform: none;
+}
+
+.price {
+  color: #5bb3cc;
+  font-weight: 700;
+}

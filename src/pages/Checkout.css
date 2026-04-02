@@ -1,0 +1,72 @@
+.checkout-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 80px;
+}
+
+.checkout-title { font-size: 24px; margin-bottom: 32px; font-weight: 700; }
+
+.billing-form { display: grid; gap: 20px; }
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #86868b;
+}
+
+.form-group input {
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #d2d2d7;
+  outline: none;
+}
+
+.order-review {
+  background-color: #f5f5f7;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.order-row span:last-child { font-weight: 600; }
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.order-total span:last-child { color: #0071e3; }
+
+.place-order-btn {
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+}

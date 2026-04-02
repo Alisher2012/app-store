@@ -1,0 +1,109 @@
+.cart-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.cart-table-header {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 0.5fr;
+  padding: 20px;
+  border-bottom: 2px solid #111;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr 0.5fr;
+  padding: 40px 20px;
+  border-bottom: 1px solid #d2d2d7;
+  align-items: center;
+}
+
+.item-info { display: flex; gap: 20px; align-items: center; }
+.item-img {
+  width: 80px;
+  height: 80px;
+  background-color: #f5f5f7;
+  border-radius: 4px;
+}
+.item-img img { width: 100%; height: 100%; object-fit: contain; }
+
+.item-title h3 { font-size: 16px; margin: 0; }
+.item-sku { font-size: 12px; color: #86868b; }
+
+.item-price, .item-total { font-size: 20px; font-weight: 600; }
+
+.item-qty {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d2d2d7;
+  padding: 10px 16px;
+  gap: 16px;
+}
+
+.item-remove { cursor: pointer; color: #86868b; }
+
+.cart-actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-secondary {
+  border: 1px solid #d2d2d7;
+  padding: 16px 32px;
+  font-weight: 600;
+  color: #111;
+  display: inline-block;
+}
+
+.btn-dark {
+  background-color: #111;
+  color: #fff;
+  padding: 16px 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.totals-box {
+  background-color: #f5f5f7;
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.totals-label { color: #86868b; }
+.totals-value { font-weight: 600; }
+.totals-shipping { margin-top: 20px; }
+
+.total-grand {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.total-grand span:last-child { color: #0071e3; }
+
+.btn-checkout {
+  display: block;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 40px;
+}
